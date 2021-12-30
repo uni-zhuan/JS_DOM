@@ -30,7 +30,7 @@ function prepareGallery() {
   }
 }
 
-function addLoadEvent(func) {
+function addLoadEvent(func) {//增加在页面加载完成时得到执行的函数
   var oldonload = window.onload;
   if (typeof window.onload != 'function') {
     window.onload = func;

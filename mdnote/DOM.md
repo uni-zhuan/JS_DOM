@@ -22,6 +22,11 @@ p{
 - 获取和设置属性
   - `object.getAttribute(attribute)` 获取元素属性
   - `object.setAttribute(attribute)` 修改元素属性节点的值
+  - `document.createElement(nodeName)`创建一个新的元素
+  - `parent.appendChild(child)`将新创建的节点插入某个文档的节点树
+  - `document.createTextNode(text)`创建文本节点
+  - `parentElement.insertBefore(newElement,targetElement)`在已有元素前插入一个新元素
+  - 0
 - 事件处理函数
   - `onclick()`点击链接,使用`return false`进行阻止默认行为的调用 
   - `window.onload`在页面加载时执行
@@ -51,4 +56,3 @@ p{
   ```
 - 压缩脚本
   - 工作副本+精简副本(min)
-  - 

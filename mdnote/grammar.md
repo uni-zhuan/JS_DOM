@@ -34,7 +34,4 @@ beatles.vocalist=lennon;
 
 ## 常用函数
 - alert() 
-
-
-
-
+- `setTimeout("function",interval)`让某个函数在经过一段预定的时间之后开始执行
